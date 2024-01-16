@@ -13,8 +13,6 @@ body {
 h1 {
     margin: 0;
     font-size: 40px;
-    padding-left: 90px;
-    /* color: #4c5d6a; */
 }
 
 h2 {
@@ -48,6 +46,7 @@ img{
 video{
     max-width: 100%;
     object-fit: cover;
+    display: block;
 }
 section{
     padding: 15px 0;
@@ -65,21 +64,30 @@ section{
     min-height: 150px;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+}
+.content-section{
+    padding: 40px 0;
 }
 .row-wrap {
     display: flex;
-    width: 100%;
+    width: calc(100% + 30px);
+    margin: 0 -15px;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .col-left {
-    width: 79%;
+    flex: 0 0 80%;
+    max-width: 80%;
+    padding: 0 15px;
 }
 .col-left .division{
     margin-bottom: 25px;
 }
 .card-wrap{
     display: flex;
+    flex-wrap: wrap;
     width: calc(100% + 30px);
     justify-content: space-between;
     margin: 0 -15px;
@@ -101,11 +109,17 @@ section{
     margin: 0;
     padding-left: 25px;
 }
+.listing li{
+    line-height: 22px;
+    font-size: 18px;
+}
 .lower-roman-listing{
     list-style-type: lower-roman;
 }
 .col-right {
-    width: 19%;
+    flex: 0 0 20%;
+    max-width: 20%;
+    padding: 0 15px;
 }
 .image-row{
     margin-bottom: 25px;
