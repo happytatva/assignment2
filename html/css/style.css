@@ -61,7 +61,7 @@ section{
     background-size: cover;
 }
 .banner-section .inner-banner {
-    min-height: 150px;
+    min-height: 120px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -82,7 +82,7 @@ section{
     max-width: 80%;
     padding: 0 15px;
 }
-.col-left .division{
+.col-left .content-block{
     margin-bottom: 25px;
 }
 .card-wrap{
