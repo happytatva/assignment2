@@ -1,41 +1,42 @@
-@media screen and (max-width: 991px){
-    .col-left {
-        flex: 0 0 100%;
-        max-width: 100%;
-        padding: 0 15px;
-    }
-    .col-right {
-        flex: 0 0 100%;
-        max-width: 100%;
-        padding: 0 15px;
-    }
+@media screen and (max-width: 991px) {
+  .col-left {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
+  .col-right {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
 }
 @media screen and (max-width: 767px) {
-    h1{
-        font-size: 38px;
-    }
-    h2{
-        font-size: 32px;
-        margin-bottom: 18px;
-    }
-    h3{
-        font-size: 26px;
-    }
-    .card-three-items .card-items{
-        flex: 0 0 50%;
-        max-width: 50%;
-        padding: 0 15px;
-    }
+  h1 {
+    font-size: 38px;
+  }
+  h2 {
+    font-size: 32px;
+    margin-bottom: 18px;
+  }
+  h3 {
+    font-size: 26px;
+  }
+  .card-three-items .card-items {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+  }
 }
 @media screen and (max-width: 575px) {
-    .card-items{
-        flex: 0 0 100%;
-        max-width: 100%;
-        padding: 0 15px;
-    }
-    .card-three-items .card-items{
-        flex: 0 0 100%;
-        max-width: 100%;
-        padding: 0 15px;
-    }
+  .card-items {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+    margin-bottom: 10px;
+  }
+  .card-three-items .card-items {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 0 15px;
+  }
 }
